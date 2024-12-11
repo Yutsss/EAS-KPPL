@@ -67,6 +67,46 @@ Sebuah perusahaan membutuhkan sistem e-commerce untuk menjual produk digital sep
 
 ## **No. 2**
 
+### **Tahap**
+
+**1. Requirement Analysis and Specification**
+
+Tahap ini berfokus pada pengumpulan dan analisis kebutuhan perangkat lunak. Tim proyek bekerja sama dengan pengguna atau klien untuk memahami apa yang diharapkan dari sistem yang akan dikembangkan. Hasil dari tahap ini adalah dokumen Software Requirements Specification (SRS) yang berisi kebutuhan fungsional (seperti fitur spesifik) dan non-fungsional (seperti performa atau keamanan). Dokumen ini menjadi dasar untuk semua tahap selanjutnya, sehingga harus dibuat lengkap dan bebas dari ambiguitas.
+
+**2. System Design**
+
+Setelah kebutuhan dirumuskan, tahap ini bertujuan untuk membuat desain sistem yang memenuhi kebutuhan tersebut. Desain ini melibatkan pemilihan teknologi, struktur data, dan arsitektur perangkat lunak. Diagram seperti data flow diagram (DFD), diagram kelas, atau diagram entity-relationship digunakan untuk memvisualisasikan sistem. Pada tahap ini, antarmuka pengguna dan desain database juga dirancang untuk memastikan efisiensi dan integrasi sistem.
+
+**3. Implementation (Coding)**
+
+Tahap implementasi melibatkan penerjemahan desain sistem ke dalam kode program. Pengembang mulai menulis kode untuk setiap modul berdasarkan desain yang telah dibuat. Modul-modul ini biasanya dikembangkan secara terpisah, diuji secara independen menggunakan unit testing, dan disiapkan untuk integrasi dengan modul lain. Hasil akhir dari tahap ini adalah perangkat lunak yang berfungsi sesuai desain awal.
+
+**4. Integration and Testing**
+
+Setelah modul-modul selesai dikembangkan, tahap ini bertujuan untuk mengintegrasikan semua modul ke dalam sistem penuh dan melakukan pengujian. Pengujian dilakukan untuk memastikan bahwa perangkat lunak memenuhi kebutuhan yang telah didefinisikan. Jenis pengujian yang dilakukan mencakup pengujian fungsional (menguji apakah fitur berjalan dengan baik), pengujian kinerja (mengukur efisiensi sistem), dan pengujian pengguna (menguji apakah perangkat lunak sesuai dengan harapan pengguna).
+
+**5. Deployment and Maintenance**
+
+Pada tahap akhir ini, perangkat lunak dirilis ke lingkungan produksi sehingga dapat digunakan oleh pengguna akhir. Setelah perangkat lunak diluncurkan, tim pengembang memberikan dukungan berupa pemeliharaan. Pemeliharaan ini meliputi perbaikan bug yang ditemukan setelah rilis (corrective maintenance), penyesuaian perangkat lunak terhadap perubahan lingkungan (adaptive maintenance), dan peningkatan sistem untuk memenuhi kebutuhan baru atau meningkatkan performa (perfective maintenance). Tahap ini bersifat berkelanjutan selama perangkat lunak masih digunakan.
+
+### **Kelebihan**
+
+- Struktur yang Terorganisasi.
+- Dokumentasi Lengkap.
+- Cocok untuk Proyek dengan Kebutuhan Tetap.
+- Hasil yang Mudah Diprediksi.
+
+### **Kekurangan**
+
+- Kurang Fleksibel
+- Resiko Keterlambatan Identifikasi Masalah
+- Tidak Cocok untuk Proyek Kompleks atau Dinamis:
+- Keterlibatan Pengguna Terbatas
+
+### **Kesimpulan**
+
+Seperti yang dijelaskan pada soal, disini konteksnya adalah proyek yang besar dan persyaratan yang tetap. Dalam konteks ini, metode `Waterfall` memiliki keunggulan yang cukup tinggi, yang dimana salah satu kelebihan dalam menggunakan metode ini adalah unggul dalam proyek dengan persyaratan tetap (karena memang waterfall tinggal menjalankan semuanya sesuai rencana awal tanpa adanya rencara tambahan). Lalu karena proyeknya besar, `Waterfall` juga unggul di bagian struktur yang terorganisir dengan baik.
+
 ## **No. 3**
 
 ## **No. 4**
