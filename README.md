@@ -18,8 +18,9 @@
 
 3. Jelaskan perbedaan antara architectural design dan detailed design. Mengapa kedua jenis desain tersebut diperlukan dalam proses pengembangan perangkat lunak?
 
-4. Studi Kasus
-Sebuah perusahaan membutuhkan sistem e-commerce untuk menjual produk digital seperti foto, video, desain poster, ebook. Saat ini transaksi dihandle dengan WhatsApp. Namun seiring dengan perkembangan bisnis tools tersebut tidak mampu menangani lonjakan transaksi. Buatkan sistem / aplikasi yang mampu menangani lonjakan transaksi pada musim tertentu. Jelaskan pendekatan rekayasa perangkat lunak yang akan Anda gunakan untuk merancang, membangun, dan menguji sistem tersebut agar memenuhi kebutuhan klien.
+4. Studi Kasus:
+   
+   Sebuah perusahaan membutuhkan sistem e-commerce untuk menjual produk digital seperti foto, video, desain poster, ebook. Saat ini transaksi dihandle dengan WhatsApp. Namun seiring dengan perkembangan bisnis tools tersebut tidak mampu menangani lonjakan transaksi. Buatkan sistem / aplikasi yang mampu menangani lonjakan transaksi pada musim tertentu. Jelaskan pendekatan rekayasa perangkat lunak yang akan Anda gunakan untuk merancang, membangun, dan menguji sistem tersebut agar memenuhi kebutuhan klien.
 
 ## **No. 1**
 
@@ -130,6 +131,28 @@ Seperti yang dijelaskan pada soal, disini konteksnya adalah proyek yang besar da
   Memberikan panduan rinci kepada pengembang dalam implementasi teknis, memastikan efisiensi dan keandalan modul.
 
 ## **No. 4**
+
+Pada studi kasus ini, saya memilih metode pendekatan `Waterfall`. Hal ini dikarenakan dari awal tujuan aplikasi sudah jelas (untuk menghandle transaksi) dan tidak begitu kompleks. Berikut tahapan dari pendekatan yang saya pilih:
+
+**1. Requirement Analysis and Specification**
+
+Pada tahap pertama, kita akan mengumpulkan ide-ide serta kebutuhan aplikasi melalui wawancara dan analisis bisnis. Sistem harus mendukung penjualan produk digital, menangani lonjakan transaksi, dan memiliki fitur keamanan serta efisiensi. Semua kebutuhan didokumentasikan dalam Software Requirements Specification (SRS) sebagai panduan untuk tahap selanjutnya.
+
+**2. System Design**
+
+Disini kita akan menentukan bagaimana bentuk dari sistem yang akan kita buat. Pertama dari arsitektur kita bisa memilih antara `Microservice` yang memiliki skalabilitas tinggi, namun dengan cost yang tinggi dan sistem yang lebih kompleks. Atau kita juga dapat memilih `Monolith` yang memiliki sistem yang lebih sederhana dan mudah untuk di kembangkan, namun dengan kurangnya skalabilitas. Lalu disini juga kita akan mendesain bagaimana bentuk dari database, serta kita juga akan mendesain alur kerja aplikasi dalam bentuk `Use Case Diagram` atuu bisa dengan diagram-diagram lainnya.
+
+**3. Implementation (Coding)**
+
+Pada tahap ini, kita akan mulai mengimplementasikan fitur-fitur seperti manajemen pengguna, transaksi, katalog, dll kedalam kode program. Disini untuk `Backend` dapat menggunakan bahasa seperti `Typescript` dengan `ExpressJs` atau `Golang` dengan banyak pilihan framework, dan `Frontend` bisa menggunakan framework moderen seperti `NextJs`. Kita mungkin juga bisa menggunakan `Laravel` jika ingin pengembangan lebih mudah dan cepat, namun kekurangannya adalah kecepatan pemrosesan yang tidak secepat bahasa lain yang saya sebutkan sebelumnya.
+
+**4. Integration and Testing**
+
+Untuk masa pengembangang, kita dapat melakukan `Unit Testing` untuk melakukan tes pada komponen-komponen yang cakupannya kecil. Lalu pada saat aplikasi sudah jadi, sebelum di deploy kita dapat melakukan `Integration Test` untuk mengetes fitur-fitur aplikasi secara keseluruhan agar memastikan aplikasi memiliki `bug` yang minim.
+
+**5. Deployment and Maintenance**
+
+Terakhir, kita akan meluncurkan sistem ke production dan disertai pelatihan untuk pengguna internal seperti `admin` dan lainnya. Pemeliharaan dilakukan secara berkelanjutan untuk memperbaiki bug, menyesuaikan kebutuhan baru, dan meningkatkan performa sistem agar tetap optimal.
 
 
 
