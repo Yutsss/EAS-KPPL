@@ -23,6 +23,48 @@ Sebuah perusahaan membutuhkan sistem e-commerce untuk menjual produk digital sep
 
 ## **No. 1**
 
+### **Aktivitas Fase Analisis**
+
+- **Pengumpulan Kebutuhan**
+
+  Pada fase ini kita akan melakukan survey, pengumpulan informasi, serta ide tentang konsep aplikasi yang akan kita buat. Biasanya dilakukan dengan melakukan survey kondisi pasar saat ini atau juga dapat dengan melakukan survey terhadap calon user.
+
+- **Analisis Kebutuhan**
+  
+  Dari konsep dan ide yang sudah didapat pada fase sebelumnya, disini kita akan mengumpulkan semua kebutuhan untuk membangun aplikasi.
+
+- **Spesifikasi Kebutuhan**
+
+  Lalu, disini kita akan mendokumentasikan kebutuhan dalam bentuk spesifikasi formal seperti `Software Requirement Specification (SRS)`.
+
+- **Validasi Kebutuhan**
+  
+  Terakhir, kita harus memvalidasi bahwa kebutuhan yang terdefinisi dapat dipenuhi dengan teknologi yang tersedia dan sesuai dengan tujuan bisnis.
+
+### **Aktivitas Fase Desain**
+
+- **Desain Arsitektur**
+
+  Pada fase ini, pertama kita akan merancang struktur tinggi dari sistem, termasuk pemilihan teknologi, pola arsitektur, dan komponen utama. Hal ini penting, agar kedepannya saat proses developing semuanya sudah terencara dan terorganisir dengan rapi.
+
+- **Desain Basis Data**
+
+  Pada tahap ini kita akan mendesain bagaimana struktur pengelolaan data dari sistem kita. 
+
+- **Desain Antarmuka**
+
+  Lalu kita juga merancang antarmuka sistem yang akan ditampilkan ke user. Biasanya hal ini dilakukan oleh `UI/UX`.
+
+- **Desain Komponen Detil**
+
+  Pada tahap ini kita merancang algoritma logika bisnis yang akan diterapkan oleh sistem. Hal ini dilakukan oleh `Backend`.
+
+### **Output**
+
+- **Analisis**: Dokumen yang berisi analisis aplikasi, contohnya `SRS`.
+
+- **Desain**: Dokumen konkrit yang berisi rancangan aplikasi yang akan kita buat, contohnya `CDM`, `PDM`, dan `UI/UX`
+
 ## **No. 2**
 
 ## **No. 3**
