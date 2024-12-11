@@ -109,6 +109,28 @@ Seperti yang dijelaskan pada soal, disini konteksnya adalah proyek yang besar da
 
 ## **No. 3**
 
+### **Perbedaan**
+
+- **Architectural Design**
+  
+  Merupakan desain tingkat tinggi yang menentukan struktur sistem secara keseluruhan, termasuk komponen utama, hubungan antar komponen, dan teknologi yang digunakan. Fokusnya adalah pada kerangka kerja besar dan bagaimana komponen berinteraksi.
+
+- **Detailed Design**
+
+  Merupakan desain rinci dari setiap komponen sistem. Fokusnya adalah pada algoritma, logika, dan implementasi teknis dalam setiap modul.
+
+### **Alasan Mengapa Membutuhkan Keduannya**
+
+- **Architectural Design**
+
+  Membantu memastikan bahwa sistem dapat memenuhi kebutuhan bisnis dan bersifat skalabel.
+
+- **Detailed Design**
+
+  Memberikan panduan rinci kepada pengembang dalam implementasi teknis, memastikan efisiensi dan keandalan modul.
+
 ## **No. 4**
+
+
 
 
